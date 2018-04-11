@@ -58,6 +58,7 @@ void Member::unfollow(Member& member){
 			return;
 		}
 	}
+}
  int Member::count(){
 	return count1;
 }
@@ -73,4 +74,4 @@ int Member::numFollowing(){
 	return following.size();
 }
 		
-}
+
