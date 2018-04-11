@@ -22,7 +22,7 @@ Member::~Member(){
 }
 	
 Member::Member(){	
-	count1++;
+	++count1;
 }
 	
  int Member::count(){
