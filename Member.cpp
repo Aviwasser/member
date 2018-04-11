@@ -30,10 +30,10 @@ Member::Member(){
 }
 	
 	
-int Member::numOfFollowers(){
+int Member::numFollowers(){
 	return this->followers.size();
 }
-int Member::numOfFollowing(){
+int Member::numFollowing(){
 	return following.size();
 }
 	
