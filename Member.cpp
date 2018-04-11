@@ -14,7 +14,7 @@ Member::~Member(){
 		followers[i]->unfollow(*this);
 	}
 
-	count1--;
+	--count1;
 	following.clear();
 	followers.clear();
 	
