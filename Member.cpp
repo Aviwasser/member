@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int Member::count = 0;	
+int Member::count1 = 0;	
 
 Member::~Member(){
 	
@@ -14,7 +14,7 @@ Member::~Member(){
 		followers[i]->unfollow(*this);
 	}
 
-	count--;
+	count1--;
 	following.clear();
 	followers.clear();
 	
@@ -22,11 +22,11 @@ Member::~Member(){
 }
 	
 Member::Member(){	
-	count++;
+	count1++;
 }
 	
  int Member::count(){
-	return count;
+	return count1;
 }
 	
 	
