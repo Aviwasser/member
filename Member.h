@@ -13,8 +13,8 @@ class Member{
 	
 	public:
 	static int count();
-	int numOfFollowers();
-	int numOfFollowing();
+	int numFollowers();
+	int numFollowing();
 	void follow(Member&);
 	void unfollow(Member&);
 	Member();
