@@ -8,7 +8,7 @@ class Member{
 	private:
 	vector<Member*> followers;
 	vector<Member*> following;
-	static int count;
+	static int count1;
 	
 	
 	public:
