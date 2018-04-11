@@ -20,23 +20,6 @@ Member::~Member(){
 	
 	
 }
-	
-Member::Member(){	
-	++count1;
-}
-	
- int Member::count(){
-	return count1;
-}
-	
-	
-int Member::numFollowers(){
-	return this->followers.size();
-}
-int Member::numFollowing(){
-	return following.size();
-}
-	
 void Member::follow(Member& member){
 	Member *p = &member; 	
 	
@@ -75,5 +58,19 @@ void Member::unfollow(Member& member){
 			return;
 		}
 	}
+ int Member::count(){
+	return count1;
+}
+
+Member::Member(){	
+	++count1;
+}	
 	
+int Member::numFollowers(){
+	return this->followers.size();
+}
+int Member::numFollowing(){
+	return following.size();
+}
+		
 }
