@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include <vector>
 
 
@@ -12,11 +12,11 @@ class Member{
 	
 	
 	public:
-	static int count();
-	int numFollowers();
-	int numFollowing();
 	void follow(Member&);
 	void unfollow(Member&);
+	int numFollowers();
+	int numFollowing();
+	static int count();
 	Member();
 	~Member();
 	};
